@@ -14,7 +14,7 @@ hbs.registerPartials(pathPartials);
 
 app.get('/',(req , res)=>{
     res.render('index',{
-        title:"Home Page",
+        title:"Home Page of website",
         head : "Welcome to Home Page"
     });
 })
