@@ -1,0 +1,23 @@
+body{
+    background-color: lightgray;
+    text-align: left;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: aliceblue;
+    padding: 2px 4px;
+    border-radius: 15px;
+}
+
+header a{
+    margin: 2px 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkgray;
+}
