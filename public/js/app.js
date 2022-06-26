@@ -9,7 +9,6 @@ let messageTwo = document.querySelector('#message-2');
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
-    console.log(search.value);
 
 
     messageOne.textContent = "loadding";
